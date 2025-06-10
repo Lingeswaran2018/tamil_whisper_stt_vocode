@@ -14,7 +14,7 @@ This project integrates a fine-tuned Hugging Face Whisper model for Tamil with F
 ```bash
 # Set up virtual environment
 python -m venv venv
-venv\Scripts\activate on Windows
+venv\Scripts\activate 
 
 # Install dependencies
 pip install -r app/requirements.txt
