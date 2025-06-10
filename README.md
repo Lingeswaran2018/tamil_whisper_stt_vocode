@@ -17,7 +17,7 @@ python -m venv venv
 venv\Scripts\activate 
 
 # Install dependencies
-pip install -r app/requirements.txt
+pip install -r requirements.txt
 
 # Run the app
 uvicorn app.main:app --reload
