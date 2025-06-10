@@ -20,3 +20,20 @@ pip install -r app/requirements.txt
 
 # Run the app
 uvicorn app.main:app --reload
+
+
+File Structure
+tamil_vocode/
+├── vocode-python/                 ✅ (only your changes inside `vocode/`)
+│   └── vocode/
+│       └── streaming/
+│           ├── transcriber/
+│           │   ├── base_transcriber.py
+│           │   └── tamil_whisper_transcriber.py
+│           └── models/
+│               └── transcriber.py
+├── app/
+│   ├── main.py
+│   └── requirements.txt
+├── .gitignore                     ✅ (see below)
+└── README.md                      ✅ (brief description of what it does)
