@@ -1,0 +1,7 @@
+vocode
+fastapi
+uvicorn
+transformers
+torch
+librosa
+python-multipart
