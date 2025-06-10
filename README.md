@@ -9,7 +9,21 @@ This project integrates a fine-tuned Hugging Face Whisper model for Tamil with F
 - Fully local (no external STT APIs required)
 
 
+## How to Run
+
+```bash
+# Set up virtual environment
+python -m venv venv
+venv\Scripts\activate on Windows
+
+# Install dependencies
+pip install -r app/requirements.txt
+
+# Run the app
+uvicorn app.main:app --reload
+```
 ##File Structure
+``` bash
 tamil_vocode/
 ├── vocode-python/                 
 │   └── vocode/
@@ -24,18 +38,5 @@ tamil_vocode/
 │   └── requirements.txt
 ├── .gitignore                     
 └── README.md  
-
-## How to Run
-
-```bash
-# Set up virtual environment
-python -m venv venv
-venv\Scripts\activate on Windows
-
-# Install dependencies
-pip install -r app/requirements.txt
-
-# Run the app
-uvicorn app.main:app --reload
 
 
